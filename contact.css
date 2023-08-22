@@ -44,51 +44,10 @@ nav img{
 nav .fa{
     display: none;
 }
-.header{
-    display: flex;
+.p input{
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    padding: 15PX;
     
-}
-.re{
-    width: 200px;
-    height: 200px;
-    padding-left: 0px;
-    margin: 5px;
-}
-.B{
-    text-align: center;
-    font-size: x-large;
-}
-.ville{
-    
-    text-align: center;
-}
-.burkina{
-    display: flex;
-}
-.n{
-    text-align: center;
-    padding-left: 400px;
-}
-.km{
-    padding-left: 400px;
-}
-.cv{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.a{
-    width: 300px;
-    height: 300px;
-    justify-content: space-around;
-    
-}
-.y{
-    font-size: x-large;
-}
-.f{
-    
-    text-align: center;
-    background-color: black;
-    padding: 30px;
 }
