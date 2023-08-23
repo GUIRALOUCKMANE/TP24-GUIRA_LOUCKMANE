@@ -90,5 +90,12 @@ nav .fa{
     
     text-align: center;
     background-color: black;
-    padding: 30px;
+    padding: 5px;
+}
+.blan{
+    color: aliceblue;
+}
+.dis{
+    text-align: center;
+    color: #f44336;
 }

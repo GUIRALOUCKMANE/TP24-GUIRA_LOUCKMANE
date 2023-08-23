@@ -51,3 +51,16 @@ nav .fa{
     padding: 15PX;
     
 }
+.face{
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+}
+.tw{
+    background-color: black;
+    padding: 10px;
+    
+}
+.cent{
+    text-align: center;
+}
