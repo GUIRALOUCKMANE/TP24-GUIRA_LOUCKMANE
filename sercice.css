@@ -1,9 +1,9 @@
-nav{
+ nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color: aquamarine; 
 }
 nav img{
     width: 150px;
@@ -53,6 +53,7 @@ nav .fa{
     height: 200px;
     padding-left: 0px;
     margin: 5px;
+    
 }
 .B{
     text-align: center;
@@ -88,16 +89,89 @@ nav .fa{
     width: 350px;
     height: 50px;
 }
+.center{
+    text-align: center;
+}
 .f{
     
-    text-align: center;
-    background-color: black;
+    text-align: right;
+    /* background-color: black; */
     padding: 5px;
+    background-color: aquamarine;
+    
+}
+.right{
+    text-align: right;
+}
+.fff{
+    display: flex;
+    
 }
 .blan{
-    color: aliceblue;
+    color: black;
+    padding-left: 0px;
 }
 .dis{
     text-align: center;
     color: #f44336;
 }
+@media (max-width:300px) {
+    .re{
+        width: 200px;
+        height: 200px;
+        padding-left: 0px;
+        margin: 5px;
+        flex-direction: column;
+        display: flex !important;
+        
+        
+    }
+    .mm{
+        width: 80%;
+    }
+    nav{
+        width: 100%;
+       padding: 5px;
+    }
+    .y{
+        width: 100%;
+    }
+    .a{
+        width: 100%;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        
+    }
+    .colo{
+        display: flex;
+        flex-direction: column;
+    }
+    .cv{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    
+    .burkina{
+        display: flex;
+        flex-direction: column;
+    }
+    .center{
+        text-align: center;
+        flex-direction: column;
+    }
+    .fff{
+        flex-direction: column;
+        
+    }
+    .f{
+        padding-top: 50px;
+        padding-right: 40px;
+    }
+    
+}
+    

@@ -58,10 +58,13 @@ nav .fa{
     justify-content: space-around;
 }
 .tw{
-    background-color: black;
+    background-color: darkorange;
     padding: 10px;
     
 }
 .cent{
+    text-align: right;
+}
+.cen{
     text-align: center;
 }
