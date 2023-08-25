@@ -3,7 +3,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color: crimson;
 }
 nav img{
     width: 150px;
@@ -40,14 +40,82 @@ nav img{
     
     
 }
+.za{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ze{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn {
+    background-color: darkgreen;
+    padding: 5px 20px ;
+    
+}
 
 nav .fa{
     display: none;
 }
-@media(max-width:300px) {
+.bleue{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    padding: 12px 23px;
+}
+.vert{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    padding: 12px 23px;
+}
+@media (max-width:300px) {
     .respon{
         width: 300px;
         width: 300px;
     }
-    
+    .za{
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+    }
+    .bleue{
+        background-color: rgb(172, 172, 194);
+        width: 15px;
+        height: 15px;
+        padding: 0;
+    }
+    nav{
+        width: 100%;
+        
+    }
+    .ze{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .btn {
+        background-color: darkgreen;
+        padding: 5px 20px ;
+        flex-direction: column;
+        
+    }
+    .chevron{
+        width: 20px;
+        height: 20px;
+    }
+    .lok{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.chevron{
+    width: 20px;
+    height: 20px;
+}
+.lok{
+    display: flex;
 }
